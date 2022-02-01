@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>TODO_LIST</title>
+</head>
+<body>
+<div class="todo">
+    <div class="todo__input">
+        <input class="todo__text" type="text">
+        <span class="todo__add"></span>
+    </div>
+    <select class="todo__options">
+        <option value="active">Активные</option>
+        <option value="completed">Завершённые</option>
+        <option value="deleted">Удалённые</option>
+    </select>
+    <ul class="todo__items" data-todo-option="active"></ul>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
